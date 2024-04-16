@@ -1,6 +1,6 @@
-## Double-DQN-implementation-in-Frozen-Lake-environment
+# Double-DQN-implementation-in-Frozen-Lake-environment
 
-# Double Deep Q-Network (DDQN)
+## Double Deep Q-Network (DDQN)
 
 ## Overview
 Double Deep Q-Networks (DDQN) are an extension of the basic Deep Q-Network (DQN) that aim to reduce overestimations of action values under certain conditions. This overestimation is mitigated by decoupling the selection and evaluation of the action in the Q-learning update. While the original DQN uses the same values both to select and to evaluate an action, DDQN uses the current network to select actions and an independent target network to evaluate the action.
